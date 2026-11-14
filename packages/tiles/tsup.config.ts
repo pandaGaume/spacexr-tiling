@@ -18,7 +18,7 @@ export default defineConfig({
     target: "es2022",
     platform: "neutral",
     outDir: "dist",
-    splitting: false,
+    splitting: true,
     treeshake: true,
     external: ["@spacexr/geodesy"],
 });
